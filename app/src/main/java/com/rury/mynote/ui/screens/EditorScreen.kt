@@ -1,4 +1,4 @@
-package com.naufal.mynote.ui.screens
+package com.rury.mynote.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -24,9 +24,9 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.tooling.preview.Preview
-import com.naufal.mynote.navigation.Screen
-import com.naufal.mynote.ui.theme.*
-import com.naufal.mynote.viewmodel.NoteViewModel
+import com.rury.mynote.navigation.Screen
+import com.rury.mynote.ui.theme.*
+import com.rury.mynote.viewmodel.NoteViewModel
 
 @Composable
 fun EditorScreen(

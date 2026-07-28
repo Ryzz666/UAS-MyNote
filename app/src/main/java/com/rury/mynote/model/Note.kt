@@ -1,4 +1,4 @@
-package com.naufal.mynote.model
+package com.rury.mynote.model
 
 data class Note(
     val id: Long = 0,

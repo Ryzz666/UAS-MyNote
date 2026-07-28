@@ -1,10 +1,10 @@
-package com.naufal.mynote.viewmodel
+package com.rury.mynote.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.naufal.mynote.data.NoteStorage
-import com.naufal.mynote.model.Note
+import com.rury.mynote.data.NoteStorage
+import com.rury.mynote.model.Note
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

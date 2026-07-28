@@ -1,4 +1,4 @@
-package com.naufal.mynote
+package com.rury.mynote
 
 import org.junit.Test
 import org.junit.Assert.*

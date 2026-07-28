@@ -1,4 +1,4 @@
-package com.naufal.mynote.ui.screens
+package com.rury.mynote.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -20,9 +20,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.naufal.mynote.model.Note
-import com.naufal.mynote.viewmodel.NoteViewModel
-import com.naufal.mynote.ui.theme.*
+import com.rury.mynote.model.Note
+import com.rury.mynote.viewmodel.NoteViewModel
+import com.rury.mynote.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -68,7 +68,7 @@ fun DashboardContent(
             TopAppBar(
                 title = { 
                     Text(
-                        "MyNote 📝", 
+                        "RuryNotes 📓", 
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.ExtraBold
                     ) 
@@ -101,7 +101,7 @@ fun DashboardContent(
                 onClick = onAddNote,
                 containerColor = MaterialTheme.colorScheme.primary,
                 contentColor = MaterialTheme.colorScheme.onPrimary,
-                shape = RoundedCornerShape(20.dp),
+                shape = androidx.compose.foundation.shape.CutCornerShape(12.dp),
                 icon = { Icon(Icons.Rounded.Add, contentDescription = null) },
                 text = { Text("New Note", fontWeight = FontWeight.Bold) }
             )

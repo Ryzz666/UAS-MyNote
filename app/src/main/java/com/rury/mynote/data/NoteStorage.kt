@@ -1,10 +1,10 @@
-package com.naufal.mynote.data
+package com.rury.mynote.data
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.naufal.mynote.model.Note
+import com.rury.mynote.model.Note
 
 class NoteStorage(context: Context) {
     private val sharedPreferences: SharedPreferences =

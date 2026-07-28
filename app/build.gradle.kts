@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.naufal.mynote"
+    namespace = "com.rury.mynote"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.naufal.mynote"
+        applicationId = "com.rury.mynote"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

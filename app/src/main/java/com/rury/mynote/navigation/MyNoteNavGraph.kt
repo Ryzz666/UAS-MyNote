@@ -1,4 +1,4 @@
-package com.naufal.mynote.navigation
+package com.rury.mynote.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -7,10 +7,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.naufal.mynote.ui.screens.DashboardScreen
-import com.naufal.mynote.ui.screens.EditorScreen
-import com.naufal.mynote.ui.screens.AboutScreen
-import com.naufal.mynote.viewmodel.NoteViewModel
+import com.rury.mynote.ui.screens.DashboardScreen
+import com.rury.mynote.ui.screens.EditorScreen
+import com.rury.mynote.ui.screens.AboutScreen
+import com.rury.mynote.viewmodel.NoteViewModel
 
 @Composable
 fun MyNoteNavGraph() {

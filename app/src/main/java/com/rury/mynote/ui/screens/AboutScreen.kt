@@ -1,4 +1,4 @@
-package com.naufal.mynote.ui.screens
+package com.rury.mynote.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -16,7 +16,7 @@ fun AboutScreen(onNavigateBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("About", fontWeight = FontWeight.Bold) },
+                title = { Text("M.Yana Mabruri Nim 23083000128", fontWeight = FontWeight.Bold) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
                         Icon(Icons.AutoMirrored.Rounded.ArrowBack, contentDescription = "Back")
@@ -34,7 +34,7 @@ fun AboutScreen(onNavigateBack: () -> Unit) {
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "MyNote",
+                text = "RuryNotes",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.primary
@@ -51,11 +51,11 @@ fun AboutScreen(onNavigateBack: () -> Unit) {
                 color = MaterialTheme.colorScheme.secondary
             )
             Text(
-                text = "Name: NAUFAL DZAKI NIARDI",
+                text = "Name: M.Yana Mabruri",
                 style = MaterialTheme.typography.bodyMedium
             )
             Text(
-                text = "Student ID: 23083000159",
+                text = "Student ID: 23083000128",
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(32.dp))

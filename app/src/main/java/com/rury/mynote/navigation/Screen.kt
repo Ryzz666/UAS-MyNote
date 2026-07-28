@@ -1,4 +1,4 @@
-package com.naufal.mynote.navigation
+package com.rury.mynote.navigation
 
 sealed class Screen(val route: String) {
     data object Dashboard : Screen("dashboard")

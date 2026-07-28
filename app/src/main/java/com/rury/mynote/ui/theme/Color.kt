@@ -1,15 +1,15 @@
-package com.naufal.mynote.ui.theme
+package com.rury.mynote.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Primary = Color(0xFF5E35B1)
-val PrimaryContainer = Color(0xFFD1C4E9)
-val Secondary = Color(0xFF7E57C2)
-val Background = Color(0xFFF7F5FF)
+val Primary = Color(0xFF00796B)
+val PrimaryContainer = Color(0xFFB2DFDB)
+val Secondary = Color(0xFF009688)
+val Background = Color(0xFFF1F8F7)
 val Surface = Color(0xFFFFFFFF)
-val SurfaceVariant = Color(0xFFEDE7F6)
-val OnSurface = Color(0xFF263238)
-val Outline = Color(0xFFB39DDB)
+val SurfaceVariant = Color(0xFFE0F2F1)
+val OnSurface = Color(0xFF00201D)
+val Outline = Color(0xFF4DB6AC)
 
 // UAS Note Colors
 val NoteYellow = Color(0xFFFFF9C4)
