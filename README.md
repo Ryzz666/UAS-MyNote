@@ -1,7 +1,7 @@
 # MyNote
-<img src="https://github.com/user-attachments/assets/0d73cb08-9de3-408e-ba33-04ca5a63c17b" width="250" alt="Screen 1">
-<img src="https://github.com/user-attachments/assets/ece937d5-56e0-460f-8891-5c088dec3a2b" width="250" alt="Screen 2">
-<img src="https://github.com/user-attachments/assets/e3dd31a5-67ba-4af5-803c-8b991eb4f771" width="250" alt="Screen 3">
+<img src="https://github.com/user-attachments/assets/feebb743-b6b2-4629-9a6f-cf2dbffafa11" alt="image" width="250" />
+<img src="https://github.com/user-attachments/assets/b261d929-ccf2-420a-acaf-9ba345f6ef8f" alt="image" width="250" />
+<img src="https://github.com/user-attachments/assets/d39bc69d-1e3e-4830-9548-ba82a2e67fb7" alt="image" width="250" />
 
 
 ## Deskripsi
